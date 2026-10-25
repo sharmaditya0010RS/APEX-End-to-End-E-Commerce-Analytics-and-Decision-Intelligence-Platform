@@ -1,4 +1,4 @@
-# APEX — E-Commerce Analytics & Decision Intelligence Platform
+# APEX | E-Commerce Analytics & Decision Intelligence Platform
 
 **Turning historical e-commerce data into measurable insights, predictive evidence, and business decisions.**
 
