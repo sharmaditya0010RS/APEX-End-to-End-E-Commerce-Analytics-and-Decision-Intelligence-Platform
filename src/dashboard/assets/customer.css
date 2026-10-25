@@ -1,0 +1,99 @@
+
+.customer-filter-bar {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    padding: 20px;
+    margin: 28px 0 22px;
+    background: #101d30;
+    border: 1px solid #273950;
+    border-radius: 15px;
+}
+
+.customer-filter {
+    min-width: 0;
+}
+
+.customer-filter .Select-control,
+.customer-filter .Select-menu-outer {
+    background: #172841;
+    border-color: #36516d;
+    color: #edf5ff;
+}
+
+.customer-filter .Select-value-label,
+.customer-filter .Select-placeholder,
+.customer-filter .Select-input input {
+    color: #edf5ff !important;
+}
+
+.customer-filter .VirtualizedSelectOption {
+    background: #172841;
+    color: #edf5ff;
+}
+
+.customer-filter .VirtualizedSelectFocusedOption {
+    background: #285075;
+}
+
+.customer-chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.customer-chart-grid > .customer-cohort-card {
+    grid-column: 1 / -1;
+}
+
+.customer-cohort-card .chart-body {
+    height: 570px;
+}
+
+.customer-cohort-card .chart-body > div,
+.customer-cohort-card .dash-graph,
+.customer-cohort-card .js-plotly-plot {
+    height: 550px;
+}
+
+@media (max-width: 1050px) {
+    .customer-filter-bar {
+        grid-template-columns: 1fr;
+    }
+    .customer-chart-grid {
+        grid-template-columns: 1fr;
+    }
+    .customer-chart-grid > .customer-cohort-card {
+        grid-column: auto;
+    }
+}
+
+
+.customer-chart-grid .apex-graph-card {
+    min-width: 0;
+}
+
+.customer-chart-grid .chart-card-header {
+    min-height: 0;
+}
+
+.customer-chart-grid .chart-heading {
+    overflow-wrap: anywhere;
+}
+
+.customer-chart-grid .chart-body .dash-graph {
+    width: 100%;
+}
+
+.customer-chart-grid .customer-cohort-card {
+    min-height: 0;
+}
+
+.customer-chart-grid .customer-cohort-card .chart-body {
+    height: 570px;
+}
+
+.customer-chart-grid .customer-cohort-card .dash-graph {
+    height: 550px;
+}

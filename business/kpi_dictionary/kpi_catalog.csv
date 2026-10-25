@@ -1,0 +1,13 @@
+KPI_ID,KPI_Name,Definition,Grain,Unit,Owner,Primary_Date,Validation
+KPI001,Placed Orders,Distinct order IDs in selected purchase period,Order,Count,Commercial,Purchase date,Distinct order count
+KPI002,Delivered Orders,Distinct orders with delivered status,Order,Count,Operations,Purchase date,Delivered order count
+KPI003,Gross Item Value,Sum of item prices excluding freight,Order item,BRL,Commercial,Purchase date,Item price reconciliation
+KPI004,Freight Value,Sum of order-item freight values,Order item,BRL,Operations,Purchase date,Freight reconciliation
+KPI005,Total Payment Value,Sum of payment amounts across payment records,Payment record,BRL,Finance,Purchase date,Payment reconciliation
+KPI006,Average Order Item Value,Gross item value divided by distinct relevant orders,Order,BRL,Commercial,Purchase date,Grain-consistent denominator
+KPI007,Delivered On Time Rate,Delivered orders with actual delivery no later than estimated delivery divided by eligible delivered orders,Order,Percent,Operations,Actual delivery date,Eligible order validation
+KPI008,Average Delay Days,Mean positive actual-minus-estimated delivery duration for eligible late delivered orders,Order,Days,Operations,Actual delivery date,Timestamp validation
+KPI009,Average Review Score,Arithmetic mean of nonmissing review scores across eligible review records,Review record,Score,Customer Experience,Review creation date,Review record reconciliation
+KPI010,Repeat Customer Rate,Distinct customer unique IDs with at least two eligible orders divided by distinct customer unique IDs with at least one eligible order,Customer,Percent,Customer Experience,Purchase date,Customer identity validation
+KPI011,Orders Per Customer,Eligible distinct orders divided by eligible distinct unique customers,Customer,Ratio,Customer Experience,Purchase date,Customer order reconciliation
+KPI012,Average Freight Per Order,Total eligible freight divided by distinct eligible orders,Order,BRL,Operations,Purchase date,Freight and orders reconciliation

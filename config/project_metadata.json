@@ -1,0 +1,14 @@
+{
+  "project": "APEX",
+  "dataset": "Olist Brazilian E-Commerce Public Dataset",
+  "source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "license": "CC BY-NC-SA 4.0",
+  "historical_period": "2016-2018",
+  "expected_source_tables": 9,
+  "analysis_currency": "BRL",
+  "business_data_mode": "Historical real-world data",
+  "simulated_company": false,
+  "stakeholder_requirements": "Simulated case study",
+  "estimated_business_impact": "Scenario-based, not realized",
+  "data_status": "Not yet ingested"
+}

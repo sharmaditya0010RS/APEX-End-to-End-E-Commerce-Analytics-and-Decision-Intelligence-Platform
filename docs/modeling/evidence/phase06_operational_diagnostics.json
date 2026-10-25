@@ -1,0 +1,74 @@
+{
+  "test_rows": 12507,
+  "test_late_orders": 601,
+  "test_late_rate": 0.04805309026944911,
+  "selected_model": "expanded_logistic",
+  "locked_threshold": 0.07850460328060829,
+  "operational_budgets": [
+    {
+      "review_budget_pct": 1,
+      "orders_reviewed": 126,
+      "actual_late_detected": 28,
+      "precision": 0.2222222222222222,
+      "late_capture_rate": 0.04658901830282862,
+      "lift_over_population": 4.624514697726012
+    },
+    {
+      "review_budget_pct": 5,
+      "orders_reviewed": 626,
+      "actual_late_detected": 73,
+      "precision": 0.11661341853035144,
+      "late_capture_rate": 0.12146422628951747,
+      "lift_over_population": 2.426762105755583
+    },
+    {
+      "review_budget_pct": 10,
+      "orders_reviewed": 1251,
+      "actual_late_detected": 101,
+      "precision": 0.08073541167066348,
+      "late_capture_rate": 0.16805324459234608,
+      "lift_over_population": 1.6801294405407456
+    },
+    {
+      "review_budget_pct": 20,
+      "orders_reviewed": 2502,
+      "actual_late_detected": 153,
+      "precision": 0.06115107913669065,
+      "late_capture_rate": 0.2545757071547421,
+      "lift_over_population": 1.272573289122446
+    },
+    {
+      "review_budget_pct": 50,
+      "orders_reviewed": 6254,
+      "actual_late_detected": 428,
+      "precision": 0.06843620083146786,
+      "late_capture_rate": 0.7121464226289518,
+      "lift_over_population": 1.4241789747074352
+    },
+    {
+      "review_budget_pct": 100,
+      "orders_reviewed": 12507,
+      "actual_late_detected": 601,
+      "precision": 0.04805309026944911,
+      "late_capture_rate": 1.0,
+      "lift_over_population": 1.0
+    }
+  ],
+  "monthly_drift": [
+    {
+      "purchase_month": "2018-07",
+      "orders": 6156,
+      "actual_late_rate": 0.03378817413905133,
+      "mean_predicted_risk": 0.09412772085761914
+    },
+    {
+      "purchase_month": "2018-08",
+      "orders": 6351,
+      "actual_late_rate": 0.061880018894662256,
+      "mean_predicted_risk": 0.10565755109363888
+    }
+  ],
+  "test_data_used_for_retraining": false,
+  "test_data_used_for_threshold_selection": false,
+  "financial_impact_estimated": false
+}

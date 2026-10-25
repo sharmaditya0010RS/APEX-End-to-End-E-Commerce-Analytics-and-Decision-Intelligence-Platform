@@ -1,0 +1,9 @@
+Stakeholder,Role,PrimaryDecision,Priority,Engagement
+Executive Sponsor,CEO,Strategic prioritization,High,Executive review
+Commercial Director,Revenue Owner,Commercial performance,High,KPI and category review
+Customer Experience Lead,Customer Owner,Retention and satisfaction,High,Customer intelligence review
+Operations Director,Logistics Owner,Delivery performance,High,Operational review
+Marketplace Manager,Seller Owner,Seller interventions,High,Seller performance review
+BI Product Owner,Delivery Owner,Dashboard requirements,High,UAT and acceptance
+Data Engineer,Technical Owner,Pipeline reliability,High,Technical review
+Data Analyst,Analytical Owner,Statistical evidence,High,Insight review

@@ -1,0 +1,8 @@
+ID,Category,Risk,Mitigation,Status
+R001,Data,Historical data may not reflect current market behavior,Label periods and avoid present-day claims,Open
+R002,Metric,Order-item and payment joins can inflate revenue,Use grain-aware facts and reconciliation,Open
+R003,Financial,No actual profit or marketing cost available,Use scenario inputs rather than fabricated actuals,Open
+R004,Analytics,Delivery prediction can leak post-purchase data,Apply point-in-time feature controls,Open
+R005,Quality,Missing dates and inconsistent source records,Profile data and define exclusions,Open
+R006,Delivery,Power BI report performance may degrade,Benchmark key interactions and optimize model,Open
+R007,Governance,Source license may restrict redistribution,Maintain attribution and non-commercial compliance,Open

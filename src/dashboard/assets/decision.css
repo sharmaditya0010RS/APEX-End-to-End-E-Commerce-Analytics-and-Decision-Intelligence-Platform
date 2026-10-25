@@ -1,0 +1,78 @@
+.decision-filter-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    padding: 20px;
+    margin: 28px 0 22px;
+    background: #101d30;
+    border: 1px solid #273950;
+    border-radius: 15px;
+}
+
+.decision-filter {
+    min-width: 0;
+}
+
+.decision-filter .Select-control,
+.decision-filter .Select-menu-outer {
+    background: #172841;
+    border-color: #36516d;
+    color: #edf5ff;
+}
+
+.decision-filter .Select-value-label,
+.decision-filter .Select-placeholder,
+.decision-filter .Select-input input {
+    color: #edf5ff !important;
+}
+
+.decision-filter .VirtualizedSelectOption {
+    background: #172841;
+    color: #edf5ff;
+}
+
+.decision-filter .VirtualizedSelectFocusedOption {
+    background: #285075;
+}
+
+.decision-chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 20px;
+}
+
+.decision-chart-grid .decision-large {
+    grid-column: 1 / -1;
+}
+
+.decision-large .chart-body {
+    height: 430px;
+}
+
+.decision-large .chart-body > div,
+.decision-large .dash-graph,
+.decision-large .js-plotly-plot {
+    height: 410px;
+}
+
+@media (max-width: 1150px) {
+    .decision-filter-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .decision-chart-grid {
+        grid-template-columns: 1fr;
+    }
+    .decision-chart-grid .decision-large {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .decision-filter-bar {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,12 @@
+apex:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: 127.0.0.1
+      port: 5433
+      user: apex_admin
+      password: "{{ env_var('APEX_DB_PASSWORD') }}"
+      dbname: apex_warehouse
+      schema: apex
+      threads: 4

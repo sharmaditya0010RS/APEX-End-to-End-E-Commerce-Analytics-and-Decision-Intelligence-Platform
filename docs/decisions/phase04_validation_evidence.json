@@ -1,0 +1,16 @@
+{
+  "phase": 4,
+  "order_records": 99441,
+  "distinct_customers": 96096,
+  "gross_item_value_brl": 13591643.7,
+  "sla_eligible": 96470,
+  "calendar_late_orders": 6534,
+  "business_charts": 20,
+  "quality_charts": 13,
+  "statistical_charts": 1,
+  "sql_assertions_passed": 5,
+  "reviewed_late_orders": 6381,
+  "reviewed_on_time_orders": 89443,
+  "mean_review_difference": -2.0187665664551475,
+  "validation": "PASS"
+}

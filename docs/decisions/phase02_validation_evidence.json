@@ -1,0 +1,25 @@
+{
+  "phase": 2,
+  "source_tables": 9,
+  "total_rows": 1550922,
+  "total_columns": 52,
+  "missing_cells": 153259,
+  "duplicate_rows": 261831,
+  "tested_relationship_orphans": 0,
+  "charts_verified": 13,
+  "sla_comparison": [
+    {
+      "definition": "Timestamp",
+      "eligible_orders": "96470",
+      "late_orders": "7826",
+      "late_pct": "8.1124"
+    },
+    {
+      "definition": "Calendar Date",
+      "eligible_orders": "96470",
+      "late_orders": "6534",
+      "late_pct": "6.7731"
+    }
+  ],
+  "result": "PASS"
+}

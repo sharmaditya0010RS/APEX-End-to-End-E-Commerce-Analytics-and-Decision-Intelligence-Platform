@@ -1,0 +1,21 @@
+{
+  "name": "APEX Enterprise White",
+  "dataColors": [
+    "#2563EB",
+    "#0D9488",
+    "#7C3AED",
+    "#F59E0B",
+    "#E11D48",
+    "#0891B2",
+    "#64748B",
+    "#84CC16",
+    "#6366F1",
+    "#F97316"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#142238",
+  "tableAccent": "#2563EB",
+  "good": "#047857",
+  "neutral": "#9A6700",
+  "bad": "#BE123C"
+}

@@ -1,0 +1,84 @@
+{
+  "prediction_task": "calendar_date_late_delivery",
+  "unit_of_analysis": "order",
+  "prediction_scenario": "order_placement_candidate",
+  "training_period": "2017-01 through 2018-04",
+  "validation_period": "2018-05 through 2018-06",
+  "final_test_period": "2018-07 through 2018-08",
+  "test_evaluated": false,
+  "selection_metric": "validation_average_precision",
+  "selected_model": "expanded_logistic",
+  "selected_feature_group": "expanded",
+  "selected_features": [
+    "customer_state",
+    "purchase_month_number",
+    "purchase_day_of_week",
+    "purchase_hour",
+    "promised_delivery_days",
+    "gross_item_value",
+    "freight_value",
+    "item_count"
+  ],
+  "selected_threshold": 0.07850460328060829,
+  "threshold_selection": "maximum_validation_F2",
+  "validation_F2": 0.27008310249307477,
+  "validation_results": [
+    {
+      "model": "expanded_logistic",
+      "feature_group": "expanded",
+      "train_rows": 70851,
+      "validation_rows": 12845,
+      "train_late_rate": 0.07644211090880863,
+      "validation_late_rate": 0.040015570260801867,
+      "validation_average_precision": 0.10598287184607671,
+      "validation_roc_auc": 0.7442228264659598,
+      "validation_brier_score": 0.03819669898091755
+    },
+    {
+      "model": "expanded_gradient_boosting",
+      "feature_group": "expanded",
+      "train_rows": 70851,
+      "validation_rows": 12845,
+      "train_late_rate": 0.07644211090880863,
+      "validation_late_rate": 0.040015570260801867,
+      "validation_average_precision": 0.095494555263783,
+      "validation_roc_auc": 0.7163565017716571,
+      "validation_brier_score": 0.03757272279581221
+    },
+    {
+      "model": "strict_gradient_boosting",
+      "feature_group": "strict",
+      "train_rows": 70851,
+      "validation_rows": 12845,
+      "train_late_rate": 0.07644211090880863,
+      "validation_late_rate": 0.040015570260801867,
+      "validation_average_precision": 0.060354427660452056,
+      "validation_roc_auc": 0.5642958952903172,
+      "validation_brier_score": 0.03839214444161708
+    },
+    {
+      "model": "strict_logistic",
+      "feature_group": "strict",
+      "train_rows": 70851,
+      "validation_rows": 12845,
+      "train_late_rate": 0.07644211090880863,
+      "validation_late_rate": 0.040015570260801867,
+      "validation_average_precision": 0.05850560802368888,
+      "validation_roc_auc": 0.6273217795647741,
+      "validation_brier_score": 0.040055235534604446
+    },
+    {
+      "model": "historical_prevalence",
+      "feature_group": "none",
+      "train_rows": 70851,
+      "validation_rows": 12845,
+      "train_late_rate": 0.07644211090880863,
+      "validation_late_rate": 0.040015570260801867,
+      "validation_average_precision": 0.040015570260801867,
+      "validation_roc_auc": 0.5,
+      "validation_brier_score": 0.03974121726108559
+    }
+  ],
+  "expanded_features_point_in_time_verified": false,
+  "causal_claim": false
+}

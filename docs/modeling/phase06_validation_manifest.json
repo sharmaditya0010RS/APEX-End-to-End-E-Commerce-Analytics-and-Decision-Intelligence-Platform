@@ -1,0 +1,19 @@
+{
+  "phase": 6,
+  "validation": "PASS",
+  "selected_model": "expanded_logistic",
+  "model_sha256": "b8a6f1ae6fd1147b65f9211f723e5c28c53622eada856d214a71edbd2507a503",
+  "experiments": 5,
+  "validation_orders": 12845,
+  "test_orders": 12507,
+  "test_late_orders": 601,
+  "test_average_precision": 0.0796655966389213,
+  "test_roc_auc": 0.6196844779390863,
+  "test_brier": 0.05039303782232891,
+  "test_recall": 0.7304492512479202,
+  "test_precision": 0.06698199572779982,
+  "diagnostic_charts": 6,
+  "operational_budget_scenarios": 6,
+  "expanded_features_point_in_time_verified": false,
+  "deployment_approved": false
+}

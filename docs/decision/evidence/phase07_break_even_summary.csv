@@ -1,0 +1,7 @@
+review_budget_pct,orders_reviewed,observed_model_late_identified,scenario_review_expense_brl,break_even_prevention_value_brl,model_scenario_net_brl,financially_viable_under_assumptions
+1.0,126,28,630.0,90.0,-280.0,False
+5.0,626,73,3130.0,171.5068493150685,-2217.5,False
+10.0,1251,101,6255.0,247.72277227722773,-4992.5,False
+20.0,2502,153,12510.0,327.05882352941177,-10597.5,False
+50.0,6254,428,31270.0,292.2429906542056,-25920.0,False
+100.0,12507,601,62535.0,416.2063227953411,-55022.5,False

@@ -1,0 +1,58 @@
+.predictive-filter-bar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 28px 0 22px;
+    background: #101d30;
+    border: 1px solid #273950;
+    border-radius: 15px;
+}
+
+.predictive-filter {
+    min-width: 0;
+}
+
+.predictive-filter .Select-control,
+.predictive-filter .Select-menu-outer {
+    background: #172841;
+    border-color: #36516d;
+    color: #edf5ff;
+}
+
+.predictive-filter .Select-value-label,
+.predictive-filter .Select-placeholder,
+.predictive-filter .Select-input input {
+    color: #edf5ff !important;
+}
+
+.predictive-filter .VirtualizedSelectOption {
+    background: #172841;
+    color: #edf5ff;
+}
+
+.predictive-filter .VirtualizedSelectFocusedOption {
+    background: #285075;
+}
+
+.predictive-chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.predictive-chart-grid .predictive-wide {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 1100px) {
+    .predictive-chart-grid,
+    .predictive-filter-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .predictive-chart-grid .predictive-wide {
+        grid-column: auto;
+    }
+}

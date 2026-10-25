@@ -1,0 +1,35 @@
+{
+  "phase": 7,
+  "validation": "PASS",
+  "scenario_count": 162,
+  "capacity_levels": [
+    1.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0,
+    100.0
+  ],
+  "effectiveness_assumptions": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "review_cost_assumptions_brl": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "prevention_value_assumptions_brl": [
+    20.0,
+    50.0,
+    100.0
+  ],
+  "test_orders": 12507,
+  "observed_test_late_orders": 601,
+  "realized_savings_claim": false,
+  "intervention_effectiveness_observed": false,
+  "random_baseline_type": "expected_value",
+  "model_retrained": false,
+  "test_threshold_retuned": false
+}
