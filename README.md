@@ -2,7 +2,7 @@
 
 **Turning historical e-commerce data into measurable insights, predictive evidence, and business decisions.**
 
-**PostgreSQL • SQL • dbt • Python • Machine Learning • Power BI • Plotly Dash • Docker**
+**PostgreSQL • SQL • dbt • Python • Machine Learning • Plotly Dash • Docker**
 
 ---
 
@@ -10,9 +10,9 @@
 
 APEX is an end-to-end **Analytics Engineering, Business Intelligence, and Decision Intelligence** platform built using the Brazilian Olist e-commerce dataset.
 
-The project transforms raw transactional data into a structured analytics warehouse, evaluates customer behavior and delivery reliability, assesses predictive model performance, and explores the financial feasibility of hypothetical business interventions.
+The project transforms raw transactional data into a structured analytics warehouse, evaluates customer behavior and delivery reliability, assesses predictive model performance and explores the financial feasibility of hypothetical business interventions.
 
-It combines **data engineering, statistical analysis, customer intelligence, machine learning, interactive dashboards, and decision-support analytics** in a single portfolio project.
+It combines **data engineering, statistical analysis, customer intelligence, machine learning, interactive dashboards and decision-support analytics** in a single portfolio project.
 
 ## Project at a Glance
 
@@ -67,7 +67,6 @@ Under what cost and effectiveness assumptions might an intervention break even? 
 | Data Transformation | SQL, dbt | Data modeling, testing, KPI reconciliation |
 | Data Analysis | Python, Pandas | EDA, segmentation, customer and operations analytics |
 | Machine Learning | Scikit-learn | Delivery-risk modeling and chronological evaluation |
-| Business Intelligence | Power BI, DAX | Executive reporting and business-impact dashboards |
 | Interactive Analytics | Plotly, Dash | Dynamic visualizations and decision exploration |
 | Quality Assurance | Playwright, Python | Regression, browser and interaction testing |
 | Version Control | Git | Reproducible development checkpoints |
@@ -105,33 +104,16 @@ Under what cost and effectiveness assumptions might an intervention break even? 
               |                       |
               +-----------+-----------+
                           |
-              +-----------+-----------+
-              |                       |
-              v                       v
-         POWER BI                 PLOTLY DASH
-       5 REPORT PAGES           5 DASHBOARDS
-                                 50 CHARTS
+                          +
+                          |
+                          v
+                     PLOTLY DASH
+                     5 DASHBOARDS
+                      50 CHARTS
 ```
 
 ---
 
-## Business Intelligence Dashboards
-
-### Microsoft Power BI — Business Impact Analytics
-
-Five business-focused report pages support executive reporting and evidence-based decision-making.
-
-| Page | Business Focus |
-|---|---|
-| 01 — Executive Business Health | Orders, merchandise value, business trends and performance |
-| 02 — Customer Value & Retention | Customer segmentation, repeat behavior and cohorts |
-| 03 — Delivery & Operational Efficiency | Late deliveries, SLA trends, sellers and geography |
-| 04 — Predictive Evidence & Model Readiness | Model evaluation, precision-recall and calibration |
-| 05 — Business Impact & Decision Lab | Financial scenarios, sensitivities and break-even analysis |
-
-**Business-question framework:** 40 management questions across the five reporting domains.
-
-*Five Power BI pages are reported as complete by the project author. Independent report-level acceptance evidence has not yet been recorded in this repository.*
 
 ### Plotly Dash — Interactive Intelligence Platform
 
@@ -277,7 +259,6 @@ ProjectAPEX/
 +-- database/              SQL migrations and analytical queries
 +-- dbt/                   Staging models, marts and tests
 +-- docs/                  Evidence, validation and research documentation
-+-- powerbi/               Power BI theme and report-related assets
 +-- src/
 |   +-- analytics/         Statistical and customer analytics
 |   +-- dashboard/         Dash application, charts, pages and CSS
@@ -300,7 +281,7 @@ APEX demonstrates how an analytics platform can move beyond static reporting:
 
 The project enables users to investigate commercial performance, customer value, operational reliability and the feasibility of potential interventions.
 
-Its business value lies in **traceable metrics, transparent analytical limitations, and structured decision support**—not claims of observed revenue growth, cost savings, or production ML performance.
+Its business value lies in **traceable metrics, transparent analytical limitations and structured decision support**—not claims of observed revenue growth, cost savings, or production ML performance.
 
 ---
 
@@ -314,8 +295,6 @@ Its business value lies in **traceable metrics, transparent analytical limitatio
 | Scenario modeling | Complete |
 | Five-page Plotly Dash platform | Complete |
 | Enterprise-white UI and automated Dash QA | Complete |
-| Five-page Power BI reporting | Complete, per project author |
-| Public web deployment | Not included |
 
 ---
 
